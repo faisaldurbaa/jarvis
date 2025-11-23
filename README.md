@@ -1,6 +1,16 @@
 # JARVIS AI Assistant
 
-This is the codebase for JARVIS, a personalized AI Life Coach. It's a web-based chat application built with Streamlit that leverages the power of large language models (LLMs) to provide a conversational AI experience. JARVIS can remember past conversations, access a knowledge base, and interact with Google services like Calendar, Tasks, and Gmail.
+This is the codebase for JARVIS, a personalized AI Life Coach and assistant. It's a web-based chat application built with Streamlit that leverages the power of large language models (LLMs) to provide a conversational AI experience. JARVIS can remember past conversations, access a knowledge base, and interact with Google services like Calendar, Tasks, and Gmail.
+
+## Project Philosophy
+
+The primary goal of this project was to develop a **privacy-first, local, and proactive digital assistant** that is genuinely useful in daily life. Unlike many existing AI assistants that rely on cloud infrastructure and often have opaque privacy policies, JARVIS was designed to operate locally, ensuring that your data remains your own.
+
+The core focus was on creating a secure and trustworthy assistant, free from the data privacy concerns associated with cloud-based solutions.
+
+**Development is currently paused** due to the significant hardware requirements needed to run high-quality large language models with complex reasoning capabilities locally. The project is planned to resume in the near future once the necessary hardware is acquired.
+
+---
 
 ## Features
 
@@ -74,14 +84,6 @@ My project is about building a personalized AI assistant. The goal is to create 
 ```
 
 After running `python ingest.py`, you can ask JARVIS questions about your project, and it will be able to answer them based on the information you provided.
-
-## Project Philosophy
-
-The primary goal of this project was to develop a **privacy-first, local, and proactive digital assistant** that is genuinely useful in daily life. Unlike many existing AI assistants that rely on cloud infrastructure and often have opaque privacy policies, JARVIS was designed to operate locally, ensuring that your data remains your own.
-
-The core focus was on creating a secure and trustworthy assistant, free from the data privacy concerns associated with cloud-based solutions.
-
-Development is currently paused due to the significant hardware requirements needed to run high-quality, logically complex large language models locally. The project is planned to resume in the near future once the necessary hardware is acquired.
 
 ## Future Improvements
 
